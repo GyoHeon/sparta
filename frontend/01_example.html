@@ -3,14 +3,45 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Sparta condingclub</title>
+		<style>
+			img {
+				width: 300px;
+				height: 250px;
+				border-radius: 15px;
+			}
+			.wrap {
+				width: 300px;
+				margin: auto;
+			}
+			.mytitle {
+				width: 300px;
+				height: 250px;
+				border-radius: 15px;
+
+				padding-top: 50px;
+
+				color: white;
+
+				text-align: center;
+
+				background-image: url("https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg");
+				background-size: cover;
+				background-position: center;
+			}
+		</style>
 	</head>
 
 	<body>
-		<h1>로그인 페이지</h1>
-		<ul>
-			<li>ID:<input /></li>
-			<li>PW:<input /></li>
-			<li><button>로그인하기</button></li>
-		</ul>
+		<div class="wrap">
+			<div class="mytitle">
+				<h1>로그인 페이지</h1>
+				<h5>아이디, 패스워드를 입력해주세요</h5>
+			</div>
+			<div>
+				<p>ID: <input type="text" /></p>
+				<p>PW: <input type="text" /></p>
+				<button>로그인하기</button>
+			</div>
+		</div>
 	</body>
 </html>
