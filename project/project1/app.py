@@ -5,7 +5,8 @@ import requests
 
 app = Flask(__name__)
 
-client = MongoClient('내AWS아이피', 27017, username="아이디", password="비밀번호")
+#client = MongoClient('내AWS아이피', 27017, username="아이디", password="비밀번호")
+client = MongoClient('localhost', 27017)
 db = client.dbsparta_plus_week2
 
 
@@ -17,8 +18,10 @@ def main():
 
 @app.route('/detail/<keyword>')
 def detail(keyword):
-    # API에서 단어 뜻 찾아서 결과 보내기
-    return render_template("detail.html", word=keyword)
+    r = requests.get(f"https://owlbot.info/api/v4/dictionary/{keyword}", headers={"Authorization": "Token a06bacd41a2f9361be22c8e43329296a3df75788"})
+    result = r.json()
+    print(result)
+    return render_template("detail.html", word=keyword, result=result)
 
 
 @app.route('/api/save_word', methods=['POST'])

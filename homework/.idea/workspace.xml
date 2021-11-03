@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ccf4687-c29b-41f3-a9b3-a8913ac9bd5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/homework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/project1/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project/project1/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/project1/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../project/project1/templates/detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +85,7 @@
       <workItem from="1635815662188" duration="400000" />
       <workItem from="1635844127292" duration="1906000" />
       <workItem from="1635852786900" duration="603000" />
+      <workItem from="1635902375394" duration="19000" />
     </task>
     <servers />
   </component>
